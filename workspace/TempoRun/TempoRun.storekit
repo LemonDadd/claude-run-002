@@ -1,0 +1,78 @@
+{
+  "identifier" : "A7B3C9D1-2E4F-4A6B-8C5D-9E0F1A2B3C4D",
+  "type" : "local",
+  "version" : 3,
+  "settings" : {
+    "_failTransactionsEnabled" : false,
+    "_locale" : "zh_CN",
+    "_storefront" : "CHN",
+    "_storeKitErrors" : null
+  },
+  "nonRenewingSubscriptions" : [],
+  "products" : [
+    {
+      "adHocOffers" : [],
+      "codeOffers" : [],
+      "displayPrice" : "388.00",
+      "familyShareable" : false,
+      "internalID" : "11111111-AAAA-BBBB-CCCC-222222222222",
+      "localizations" : [
+        {
+          "description" : "一次付费，永久解锁 TempoRun 全部 Pro 功能：5 种音色、无限间歇模板、全部历史、HealthKit 与 Strava 同步、步频分布图、去除广告。",
+          "displayName" : "Pro 终身买断",
+          "locale" : "zh-Hans"
+        }
+      ],
+      "productID" : "com.temporun.pro.lifetime",
+      "referenceName" : "Pro 终身买断",
+      "type" : "NonConsumable"
+    }
+  ],
+  "subscriptionGroups" : [
+    {
+      "id" : "33333333-AAAA-BBBB-CCCC-444444444444",
+      "name" : "Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "28.00",
+          "familySharable" : false,
+          "internalID" : "55555555-AAAA-BBBB-CCCC-666666666666",
+          "localizations" : [
+            {
+              "description" : "按月订阅 TempoRun Pro，解锁全部 5 种音色、无限间歇模板、全部历史记录、HealthKit 与 Strava 同步、步频分布图，去除广告。随时取消。",
+              "displayName" : "Pro 月付",
+              "locale" : "zh-Hans"
+            }
+          ],
+          "productID" : "com.temporun.pro.monthly",
+          "recurringSubscriptionPeriod" : "1 month",
+          "referenceName" : "Pro 月付"
+        },
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "168.00",
+          "familySharable" : false,
+          "internalID" : "77777777-AAAA-BBBB-CCCC-888888888888",
+          "introductoryOffer" : {
+            "internalID" : "99999999-AAAA-BBBB-CCCC-000000000000",
+            "introductoryOfferPaymentMode" : "free",
+            "introductoryOfferTimePeriod" : "7 days"
+          },
+          "localizations" : [
+            {
+              "description" : "按年订阅 TempoRun Pro，前 7 天免费试用，之后每年自动续期。解锁全部 5 种音色、无限间歇模板、全部历史、HealthKit 与 Strava 同步、步频分布图，去除广告。",
+              "displayName" : "Pro 年付（7 天免费试用）",
+              "locale" : "zh-Hans"
+            }
+          ],
+          "productID" : "com.temporun.pro.yearly",
+          "recurringSubscriptionPeriod" : "1 year",
+          "referenceName" : "Pro 年付"
+        }
+      ]
+    }
+  ]
+}
